@@ -30,6 +30,20 @@ main{
     box-shadow: magenta 0px 0px 15px 3px;
     border:1px solid magenta;
     border-radius:20px;
+    animation: prova 1.5s infinite;
+}
+
+@keyframes prova {
+    0%{
+         box-shadow: magenta 0px 0px 15px 3px;
+    }
+    50%{
+        box-shadow: magenta 0px 0px 15px 7px;
+
+    }
+    100%{
+        box-shadow: magenta 0px 0px 15px 3px;
+    }
 }
 
 span{
